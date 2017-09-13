@@ -6,7 +6,7 @@
 //  Copyright © 2016 ivanschuetz. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 /// Solves frame overlaps by moving drawers up and down by half of the height of their frames. Assumes being used for y axis, which currently supports only 1 label per axis value.
 open class ChartAxisLabelsConflictSolverMoveUpDown: ChartAxisLabelsConflictSolver {
